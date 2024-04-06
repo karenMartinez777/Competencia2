@@ -10,19 +10,30 @@
 public class Atleta {
     private String Nombre;
     private String Nacionalidad;
-    private int hora;
-    private int minutos;
+    private int tiempo;
+    
 
     public Atleta() {
     }
 
-    public Atleta(String Nombre, String Nacionalidad, int hora, int minutos) {
+    public Atleta(String Nombre, String Nacionalidad, int tiempo) {
         this.Nombre = Nombre;
         this.Nacionalidad = Nacionalidad;
-        this.hora = hora;
-        this.minutos = minutos;
+        this.tiempo = tiempo;
     }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public String getNacionalidad() {
+        return Nacionalidad;
+    }
+
+    public int getTiempo() {
+        return tiempo;
+    }
+
     
-    
-    
-}
+    }
+
